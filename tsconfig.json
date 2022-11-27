@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"target": "es2015",
+		"module": "commonjs",
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"strict": true,
+		"skipLibCheck": true
+	},
+	"exclude": ["**/*.test.ts"]
+}
