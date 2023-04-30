@@ -1,5 +1,7 @@
 # Mustache Validator
 
+[![npm version](https://badge.fury.io/js/mustache-validator.svg)](https://badge.fury.io/js/mustache-validator)
+
 ## Why?
 
 [Mustache](https://www.npmjs.com/package/mustache) doesn't validate the data used in templates which means there is a low amount of safety when the data is managed/defined in another place or there are typos, e.g. for the following:
