@@ -54,15 +54,15 @@ If you dont want a hard error, there is an option to customise what happens inst
 ```js
 import proxyData from "mustache-validator";
 Mustache.render(
-	"Hello, {{subject.name}}!",
-	proxyData(
-		{ subject },
-		{
-			handleError: (invalidPropertyPathSegments) => {
-				console.warn(`Invalid Mustache property: ${invalidPropertyPathSegments.join(".")}`);
-			},
-		},
-	),
+  "Hello, {{subject.name}}!",
+  proxyData(
+    { subject },
+    {
+      handleError: (invalidPropertyPathSegments) => {
+        console.warn(`Invalid Mustache property: ${invalidPropertyPathSegments.join(".")}`);
+      },
+    },
+  ),
 );
 ```
 
